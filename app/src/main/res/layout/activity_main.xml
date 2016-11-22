@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <azsecuer.zhuoxin.com.imagedemo2.ZQImageViewRoundOval
+        android:id="@+id/cicle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/www">
+    </azsecuer.zhuoxin.com.imagedemo2.ZQImageViewRoundOval>
+
+    <azsecuer.zhuoxin.com.imagedemo2.ZQImageViewRoundOval
+        android:id="@+id/roundRect"
+        android:layout_width="286dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/www">
+    </azsecuer.zhuoxin.com.imagedemo2.ZQImageViewRoundOval>
+
+    <azsecuer.zhuoxin.com.imagedemo2.ZQImageViewRoundOval
+        android:id="@+id/oval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/www">
+    </azsecuer.zhuoxin.com.imagedemo2.ZQImageViewRoundOval>
+</LinearLayout>
